@@ -1,4 +1,7 @@
+/* Global */
+
 * {
+    scroll-behavior: smooth;
     box-sizing: border-box;
     padding: 0;
     margin: 0;
@@ -7,6 +10,8 @@
 body {
     background-color: #d9dcd6;
 }
+
+/* Header */
 
 .header {
     padding: 20px;
@@ -24,7 +29,9 @@ body {
     color: #d9dcd6;
 }
 
-.header div {
+/* Navigation */
+
+.header nav {
     padding-top: 15px;
     margin-right: 20px;
     float: right;
@@ -32,14 +39,16 @@ body {
     font-size: 20px;
 }
 
-.header div ul {
+.header nav ul {
     list-style-type: none;
 }
 
-.header div ul li {
+.header nav ul li {
     display: inline-block;
     margin-left: 25px;
 }
+
+/* Text Properties */
 
 a {
     color: #ffffff;
@@ -50,11 +59,13 @@ p {
     font-size: 16px;
 }
 
+/* Main Section */
+
 .hero {
     height: 800px;
     width: 100%;
     margin-bottom: 25px;
-    background-image: url("../images/digital-marketing-meeting.jpg");
+    background-image: url("/assets/images/digital-marketing-meeting.jpg");
     background-size: cover;
     background-position: center;
 }
@@ -74,6 +85,8 @@ p {
     display: inline-block;
     margin-left: 20px;
 }
+
+/* Aside */
 
 .benefits {
     margin-right: 20px;
@@ -134,6 +147,8 @@ p {
     max-width: 150px;
 }
 
+/* Article Cards */
+
 .search-engine-optimization {
     margin-bottom: 20px;
     padding: 50px;
@@ -187,6 +202,8 @@ p {
     margin-bottom: 20px;
     font-size: 36px;
 }
+
+/* Footer */
 
 .footer {
     padding: 30px;
