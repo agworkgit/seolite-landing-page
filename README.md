@@ -2,7 +2,7 @@
 
 ### Description
 
-A clean search engine optimisation marketing landing page for the customer to read and understand the services offered.
+A clean search engine optimization marketing landing page for the customer to read and understand the services offered.
 I created a clean sematic HTML structure for the skeleton and adjusted the CSS with smooth scrolling and proper class names
 to make sure all the layout styles are applied correctly.
 The point of this project was to make a very convenient collection of details and highlight to the customer what the company can offer.
